@@ -1,0 +1,86 @@
+;;
+;; Domain:     elitecardprocessing.com.
+;; Exported:   2026-03-03 13:27:27
+;;
+;; This file is intended for use for informational and archival
+;; purposes ONLY and MUST be edited before use on a production
+;; DNS server.  In particular, you must:
+;;   -- update the SOA record with the correct authoritative name server
+;;   -- update the SOA record with the contact e-mail address information
+;;   -- update the NS record(s) with the authoritative name servers for this domain.
+;;
+;; For further information, please consult the BIND documentation
+;; located on the following website:
+;;
+;; http://www.isc.org/
+;;
+;; And RFC 1035:
+;;
+;; http://www.ietf.org/rfc/rfc1035.txt
+;;
+;; Please note that we do NOT offer technical support for any use
+;; of this zone data, the BIND name server, or any other third-party
+;; DNS software.
+;;
+;; Use at your own risk.
+;; SOA Record
+elitecardprocessing.com	3600	IN	SOA	elliott.ns.cloudflare.com. dns.cloudflare.com. 2052421104 10000 2400 604800 3600
+
+;; NS Records
+elitecardprocessing.com.	86400	IN	NS	elliott.ns.cloudflare.com.
+elitecardprocessing.com.	86400	IN	NS	novalee.ns.cloudflare.com.
+
+;; A Records
+campus.elitecardprocessing.com.	1	IN	A	152.42.214.62 ; cf_tags=cf-proxied:true
+elitecardprocessing.com.	1	IN	A	205.209.111.54 ; cf_tags=cf-proxied:true
+emails.elitecardprocessing.com.	1	IN	A	20.51.231.138 ; cf_tags=cf-proxied:false
+
+;; CNAME Records
+20757620.elitecardprocessing.com.	60	IN	CNAME	sendgrid.net. ; cf_tags=cf-proxied:false
+360.elitecardprocessing.com.	60	IN	CNAME	ha_360.elitecardprocessing.psms.com. ; cf_tags=cf-proxied:false
+autodiscover.elitecardprocessing.com.	1	IN	CNAME	autodiscover.outlook.com. ; cf_tags=cf-proxied:false
+cpanel.elitecardprocessing.com.	1	IN	CNAME	sucuriip.elitecardprocessing.com. ; cf_tags=cf-proxied:true
+_domainconnect.elitecardprocessing.com.	1	IN	CNAME	_domainconnect.gd.domaincontrol.com. ; cf_tags=cf-proxied:false
+em6901.elitecardprocessing.com.	60	IN	CNAME	u20757620.wl121.sendgrid.net. ; cf_tags=cf-proxied:false
+enterpriseenrollment.elitecardprocessing.com.	1	IN	CNAME	enterpriseenrollment.manage.microsoft.com. ; cf_tags=cf-proxied:false
+enterpriseregistration.elitecardprocessing.com.	1	IN	CNAME	enterpriseregistration.windows.net. ; cf_tags=cf-proxied:false
+gps1._domainkey.elitecardprocessing.com.	60	IN	CNAME	gps1._default.dkim.safewebservices.com. ; cf_tags=cf-proxied:false
+gps2._domainkey.elitecardprocessing.com.	60	IN	CNAME	gps2._default.dkim.safewebservices.com. ; cf_tags=cf-proxied:false
+gps3._domainkey.elitecardprocessing.com.	60	IN	CNAME	gps3._default.dkim.safewebservices.com. ; cf_tags=cf-proxied:false
+help.elitecardprocessing.com.	1	IN	CNAME	elitecardprocessing.helpscoutdocs.com. ; cf_tags=cf-proxied:true
+iris1._domainkey.elitecardprocessing.com.	60	IN	CNAME	dkim1.iriscrm.com. ; cf_tags=cf-proxied:false
+iris._domainkey.elitecardprocessing.com.	60	IN	CNAME	dkim.iriscrm.com. ; cf_tags=cf-proxied:false
+k2._domainkey.elitecardprocessing.com.	60	IN	CNAME	dkim2.mcsv.net. ; cf_tags=cf-proxied:false
+k3._domainkey.elitecardprocessing.com.	60	IN	CNAME	dkim3.mcsv.net. ; cf_tags=cf-proxied:false
+lyncdiscover.elitecardprocessing.com.	1	IN	CNAME	webdir.online.lync.com. ; cf_tags=cf-proxied:false
+pma.elitecardprocessing.com.	1	IN	CNAME	elitecard-617073593.us-east-1.elb.amazonaws.com. ; cf_tags=cf-proxied:true
+portal.elitecardprocessing.com.	1	IN	CNAME	elitecard.iriscrm.com. ; cf_tags=cf-proxied:false
+s1._domainkey.elitecardprocessing.com.	60	IN	CNAME	s1.domainkey.u20757620.wl121.sendgrid.net. ; cf_tags=cf-proxied:false
+s2._domainkey.elitecardprocessing.com.	60	IN	CNAME	s2.domainkey.u20757620.wl121.sendgrid.net. ; cf_tags=cf-proxied:false
+selector1._domainkey.elitecardprocessing.com.	60	IN	CNAME	selector1-elitecardprocessing-com._domainkey.elitecardprocessing.onmicrosoft.com. ; cf_tags=cf-proxied:false
+selector2._domainkey.elitecardprocessing.com.	60	IN	CNAME	selector2-elitecardprocessing-com._domainkey.elitecardprocessing.onmicrosoft.com. ; cf_tags=cf-proxied:false
+sip.elitecardprocessing.com.	1	IN	CNAME	sipdir.online.lync.com. ; cf_tags=cf-proxied:false
+url7538.elitecardprocessing.com.	60	IN	CNAME	sendgrid.net. ; cf_tags=cf-proxied:false
+webdisk.admin.elitecardprocessing.com.	1	IN	CNAME	elitecardprocessing.com. ; cf_tags=cf-proxied:true
+webdisk.elitecardprocessing.com.	1	IN	CNAME	elitecardprocessing.com. ; cf_tags=cf-proxied:true
+whm.elitecardprocessing.com.	1	IN	CNAME	sucuriip.elitecardprocessing.com. ; cf_tags=cf-proxied:true
+www1.elitecardprocessing.com.	1	IN	CNAME	wordpress-loadbalancer-337024506.ap-northeast-1.elb.amazonaws.com. ; cf_tags=cf-proxied:true
+www.admin.elitecardprocessing.com.	1	IN	CNAME	elitecardprocessing.com. ; cf_tags=cf-proxied:true
+www.elitecardprocessing.com.	1	IN	CNAME	elitecardprocessing.com. ; cf_tags=cf-proxied:true
+
+;; MX Records
+elitecardprocessing.com.	1	IN	MX	0 elitecardprocessing-com.mail.protection.outlook.com.
+
+;; SRV Records
+_sipfederationtls._tcp.elitecardprocessing.com.	1	IN	SRV	100 1 5061 sipfed.online.lync.com.
+_sip._tls.elitecardprocessing.com.	1	IN	SRV	100 1 443 sipdir.online.lync.com.
+
+;; TXT Records
+cm._domainkey.elitecardprocessing.com.	1	IN	TXT	"k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC967h18EjBQaOC9vrJ/rKzttBAgfLNmWYuWpgF34xtHd8PSgP8EJr4hZMKwS7jxN28lXCeamy4eJvrcoVlhJvzXtzl1HKxNfVuKCvvRYbEthNszECRgwEGLtkuE7gk5kqkE33PowbC08MVo0DdDBZWVsL1u7Q6KjAZWb9uSIjXkwIDAQAB"
+_dmarc.elitecardprocessing.com.	60	IN	TXT	"v=DMARC1;p=none;rua=mailto:dmarc-reports@iriscrm.com;ruf=mailto:dmarc-report@iriscrm.com;fo=1"
+_dmarc.elitecardprocessing.com.	1	IN	TXT	"v=DMARC1;p=none;rua=mailto:dmarc-reports@iriscrm.com;ruf=mailto:dmarc-report@iriscrm.com;fo=1"
+elitecardprocessing.com.	1	IN	TXT	"yandex-verification: 14be0e6e6799e95f"
+elitecardprocessing.com.	1	IN	TXT	"v=spf1 +a +mx include:spf.protection.outlook.com include:servers.mcsv.net include:_spf.iriscrm.com include:spf.safewebservices.com ~all"
+elitecardprocessing.com.	1	IN	TXT	"ms=ms87106866"
+elitecardprocessing.com.	1	IN	TXT	"google-site-verification=BVVlIaS58uoGtXCZowqHkrkPrNHAvGnNBGsZHl908pI"
+mail.safewebservices.com.elitecardprocessing.com.	60	IN	TXT	"include:_spf.safewebservices.com"

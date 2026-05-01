@@ -1,0 +1,41 @@
+{
+    "version": 2,
+    "buildCommand": "next build",
+    "devCommand": "next dev",
+    "installCommand": "npm install",
+    "framework": "nextjs",
+    "rewrites": [
+      {
+        "source": "/solutions/:path*",
+        "destination": "/"
+      },
+      {
+        "source": "/merchants",
+        "destination": "/"
+      },
+      {
+        "source": "/about",
+        "destination": "/"
+      },
+      {
+        "source": "/how-to-videos",
+        "destination": "/"
+      },
+      {
+        "source": "/elite-reviews",
+        "destination": "/"
+      },
+      {
+        "source": "/careers",
+        "destination": "/"
+      },
+      {
+        "source": "/contact",
+        "destination": "/"
+      },
+      {
+        "source": "/getquote",
+        "destination": "/"
+      }
+    ]
+  }
