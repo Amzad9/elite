@@ -36,6 +36,8 @@ export default function Navbar() {
     'ATM',
     'Cash Discount Dual Pricing',
     'Integrated Payments',
+    'QuickBooks Processing',
+    'Political Accounts'
   ];
 
   const MERCHANTS_ITEMS = [
@@ -48,8 +50,8 @@ export default function Navbar() {
     { name: 'Log In to Dashboard', href: 'account-management#logins' },
     { name: 'Current Client Resources', href: 'account-management#resources' },
     { name: 'How to Videos', href: 'how-to-videos' },
-    { name: 'QuickBooks Processing', href: 'quickbooks-processing' },
-    { name: 'Political Accounts', href: 'political-accounts' },
+    // { name: 'QuickBooks Processing', href: 'quickbooks-processing' },
+    // { name: 'Political Accounts', href: 'political-accounts' },
   ];
 
   const NAV_LINKS: NavLink[] = [
